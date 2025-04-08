@@ -67,7 +67,7 @@ def better_categorize_link(url, title=""):
         domain.endswith(".edu.au") or
         domain.endswith(".ca") or
         "university" in domain or
-        "hec.ca" in domain
+        "college" in domain
     ):
         return "University Page"
     # Main Website Candidate
