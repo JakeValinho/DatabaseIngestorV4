@@ -1,9 +1,13 @@
 # main.py
 import streamlit as st
 from core.link_discovery import discover_links
+from core.scraper import scrape_links
+
+# === Logger ===
+# logger = get_logger()
 
 # === Streamlit page setup ===
-st.set_page_config(page_title="CaseComp Ingestor - Step 1: Link Discovery")
+st.set_page_config(page_title="CaseComp Ingestor - Step 1: Link Discovery + Scraping")
 st.title("🧠 Case Competition Ingestion (Step 1)")
 
 # === Input Form ===
@@ -29,6 +33,9 @@ with st.form("discovery_form"):
 if "discovered_links" not in st.session_state:
     st.session_state.discovered_links = []
 
+if "scraped_text" not in st.session_state:
+    st.session_state.scraped_text = None
+
 # === Run Discovery ===
 if submitted:
     if not comp_name or not starting_url:
@@ -45,7 +52,6 @@ if submitted:
     links = discover_links(comp_name, starting_url, starting_category, metadata)
     st.session_state.discovered_links = links
     st.success(f"✅ Found {len(links)} links!")
-
 
 # === Editable Table View ===
 if st.session_state.discovered_links:
@@ -65,7 +71,6 @@ if st.session_state.discovered_links:
 
     updated_links = []
     
-    # Iterate through the links with delete buttons
     for i, entry in enumerate(st.session_state.discovered_links):
         cols = st.columns([3, 2, 2, 2, 1])  # URL | Title | Snippet | Category | Delete
 
@@ -88,24 +93,35 @@ if st.session_state.discovered_links:
                 st.session_state.to_delete = i
                 st.rerun()
 
-        # Only add entries that weren't marked for deletion
         if st.session_state.to_delete != i:
             updated_links.append(entry)
 
-    # Update the session state with the modified list
+    # Update session state
     if st.session_state.to_delete is not None:
         st.session_state.discovered_links = updated_links
-        st.session_state.to_delete = None  # Reset the delete marker
+        st.session_state.to_delete = None
         st.rerun()
 
     st.markdown("---")
+
+    # Confirm and continue
     if st.button("✅ Confirm Categories and Continue"):
         st.success("Categories updated. Ready for Step 2 (Scraping)!")
 
-    # OPTIONAL: (future feature) Save to CSV
-    # if st.button("💾 Export to CSV"):
-    #     # Coming soon
+    # Step 2: Scraping after confirming
+    st.subheader("Step 2: Scrape Content")
+    if st.button("🚀 Start Scraping"):
+        with st.spinner("Scraping links..."):
+            try:
+                all_text = scrape_links(st.session_state.discovered_links)
+                st.session_state.scraped_text = all_text
+                st.success("🎉 Scraping completed successfully!")
 
-else:
-    st.info("⚡ Start by entering competition info above!")
+            except Exception as e:
+                st.error(f"Scraping failed: {str(e)}")
+                logger.error(f"Scraping error: {str(e)}")
 
+# === Preview Scraped Content ===
+if st.session_state.scraped_text:
+    st.subheader("Preview Scraped Text")
+    st.text_area("Scraped Text", value=st.session_state.scraped_text[:5000], height=300)  # Only show first 5k characters

@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+playwright
+pillow
+pytesseract
+pdfminer.six
+newspaper3k
+trafilatura
+instaloader
+facebook-scraper
+python-dotenv
+streamlit
