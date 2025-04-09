@@ -10,6 +10,7 @@ from io import BytesIO
 import instaloader
 from dotenv import load_dotenv
 from utils.logger import log_error
+import streamlit as st
 
 # === Load environment variables ===
 load_dotenv()
@@ -26,12 +27,18 @@ L = instaloader.Instaloader(
     post_metadata_txt_pattern=''
 )
 
-# === Try to Login ===
+# === Login if credentials provided ===
 if INSTA_USER and INSTA_PASS:
     try:
-        L.login(INSTA_USER, INSTA_PASS)
+        sessionfile = f"{INSTA_USER}"
+        if os.path.exists(sessionfile):
+            L.load_session_from_file(INSTA_USER)
+        else:
+            L.login(INSTA_USER, INSTA_PASS)
+            L.save_session_to_file()
     except Exception as e:
         log_error(f"[Instagram Login Error] {e}")
+
 
 # === Scrape Functions ===
 
@@ -150,19 +157,33 @@ def scrape_other_generic(url):
         return None
 
 
-def scrape_links(links):
+def scrape_links(links, save_to_txt=False, comp_name=None, output_dir="scrape_outputs"):
     """
     Scrape multiple links based on their category.
 
     Args:
-        links (list of dict): [{url, category}]
-
+        links (list): [{url: ..., category: ...}]
+        save_to_txt (bool): Whether to save output to a text file
+        comp_name (str): Optional competition name for filename
+        output_dir (str): Folder to save output
+        
     Returns:
         str: Combined scraped text
     """
     all_text = []
+    total = len(links)
 
-    for link in links:
+    if total == 0:
+        return None
+
+    # Try creating a progress bar if Streamlit is running
+    progress = None
+    try:
+        progress = st.progress(0)
+    except:
+        pass  # if running outside Streamlit, ignore
+
+    for i, link in enumerate(links):
         url = link.get('url')
         category = link.get('category')
 
@@ -182,4 +203,26 @@ def scrape_links(links):
         except Exception as e:
             log_error(f"[Scrape Link Error] {url}: {e}")
 
-    return '\n\n'.join(all_text) if all_text else None
+        if progress:
+            progress.progress((i + 1) / total)
+
+    if progress:
+        progress.empty()
+
+    combined_text = '\n\n'.join(all_text) if all_text else None
+
+    if save_to_txt and combined_text:
+        os.makedirs(output_dir, exist_ok=True)
+
+        if comp_name:
+            safe_name = ''.join(c for c in comp_name if c.isalnum() or c in (' ', '-', '_')).rstrip()
+            filename = f"scrape_output-{safe_name}.txt"
+        else:
+            filename = "scrape_output.txt"
+
+        output_path = os.path.join(output_dir, filename)
+
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(combined_text)
+
+    return combined_text

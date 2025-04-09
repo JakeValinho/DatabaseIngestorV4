@@ -124,3 +124,6 @@ if st.session_state.discovered_links:
 if st.session_state.scraped_text:
     st.subheader("Preview Scraped Text")
     st.text_area("Scraped Text", value=st.session_state.scraped_text[:5000], height=300)  # Only show first 5k characters
+
+scraped_text = scrape_links(st.session_state.discovered_links, save_to_txt=True, comp_name=comp_name)
+st.success(f"✅ Scraped data saved for {comp_name}!")
