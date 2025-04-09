@@ -119,7 +119,6 @@ if st.session_state.discovered_links:
 
             except Exception as e:
                 st.error(f"Scraping failed: {str(e)}")
-                logger.error(f"Scraping error: {str(e)}")
 
 # === Preview Scraped Content ===
 if st.session_state.scraped_text:
