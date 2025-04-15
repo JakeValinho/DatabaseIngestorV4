@@ -10,3 +10,4 @@ instaloader
 facebook-scraper
 python-dotenv
 streamlit
+openai
