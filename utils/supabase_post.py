@@ -44,6 +44,7 @@ def insert_competition_bundle(comp_json, timeline_json, history_json):
         "registrationfee": comp_json.get("registrationFee"),
         "isfeatured": comp_json.get("isFeatured", False),
         "ishostedbycasecomp": comp_json.get("isHostedByCaseComp", False),
+        "isinviteonly": comp_json.get("isInviteOnly", False),
         "city": comp_json.get("city"),
         "region": comp_json.get("region"),
         "websiteurl": comp_json.get("websiteUrl"),

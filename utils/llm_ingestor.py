@@ -19,10 +19,10 @@ You are an expert at structuring case competition data. Your task is to read uns
 
 == COMPETITION RULES ==
 - Output a unique lowercase hyphenated ID (e.g. "sfu-bulls-cage")
-- The competition name and ID should not make any reference to a year/date. Other fields like the description may. Sometimes there will only be data for the past year's competition - this is expected and okay.
+- The competition name and ID should not make any reference to a year/date. Other fields except for the description may. Sometimes there will only be data for the past year's competition - this is expected and okay.
 - If competition is free, set "registrationFee" to 0.
 - For "prizeAmount", compute the total pool using team sizes if per-person values are mentioned. If there is no prize pool, set to 0.
-- For "prize", If there is a monetary prize, take the total prize pool number and convert it to a string. It should be in the format [Currency][Number (with commas)] "Prize Pool" for example if there's a 15k USD prize pool it's "US$15,000 Prize Pool". If there is no prize mentioned, set to "Recognition Only". No matter what, this value can't exceed 20 characters.
+- For "prize", If there is a monetary prize, take the total prize pool number and convert it to a string. It should be in the format [Currency][Number (with commas)] "Prize Pool" for example if there's a 15k USD prize pool it's "US$15,000 Prize Pool". If it's Canadian dollars, use C$, if british pounds use pound symbol, or for euros the euro symbol, etc. If there is no prize mentioned, set to "Recognition Only". No matter what, this value can't exceed 20 characters.
 - "websiteUrl" must match: {website_url}
 - Include "timelineId": "tl-[id]" and "historyId": "h-[id]"
 - If university is mentioned but city is not, infer city from university.
@@ -63,6 +63,7 @@ You are an expert at structuring case competition data. Your task is to read uns
     "registrationFee": number | null,
     "isFeatured": false,
     "isHostedByCaseComp": false,
+    "isInviteOnly": boolean, // true if the competition requires a faculty sponsor or is invite-only, if not sure default to false
     "city": string | null,
     "region": string | null,
     "websiteUrl": "{website_url}",

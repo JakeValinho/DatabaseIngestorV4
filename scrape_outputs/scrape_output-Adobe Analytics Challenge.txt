@@ -1,0 +1,277 @@
+I am a professor looking for assistance in how to register a team for the Adobe Analytics Challenge (https://adobeanalyticschallenge.com/). The registration links are not working. Could somebody please reach out to me at marthaud@ksu.edu with more information?
+Marne L Arthaud-Day
+Hi @MLADay
+which link is not working? The website itself works for me. Is it a particular link that does not work for you?
+Maybe best to reach out to Adobe support
+Thank you, Jennifer -
+Very helpful!
+Marne
+Views
+Replies
+Total Likes
+FYI anyone else reading this. Sandor is no longer managing the competition and recommended reaching out to Amber Thornton (wadswort@adobe.com) instead. Following that rabbit trail now.
+Thanks for letting us know! Amber is great though, you are in good hands with her.
+It seems there are issues with this almost every year.
+In the past, I know that @sandor_jones has helped in the past.
+You can also try sending your issue to aac-registration@adobe.com (I would assume this email is still active, it was used the last two challenges).
+Good Luck!
+Views
+Replies
+Total Likes
+@Amruthesh_AG, while reading the FAQ tends to be helpful, in this case that really makes no difference... the Registration Page URL that you highlighted is missing from the website (hence the problem):
+I need help registering my team before the deadline. Any way to help solve the page not found issue? Thanks!
+Views
+Replies
+Total Likes
+Views
+Replies
+Total Likes
+I have not had any luck making contact with Amber or via the Analytics Challenge address after multiple attempts. I'm beginning to think the Challenge is not being held this year?
+Hmm ok, looking at the website, all the dates seem to be for 2024? I am reaching out to a contact at Adobe to see if I can get any more info for you.
+Views
+Replies
+Total Likes
+Thank you! Much appreciated. I was able to reach Sandor, who referred me to Amber, but have not successfully connected with Amber.
+Marne
+Views
+Replies
+Total Likes
+I have a friend that is looking to do the competition too. She reached out and was told it will likely be early September this year.
+Views
+Replies
+Total Likes
+Thank you! I heard from Amber this morning and she confirmed it has been rescheduled for September 2025 and that more details will be forthcoming as the event gets closer.
+I appreciate the Cloud/Crowd support!
+Marne
+Views
+Replies
+Total Likes
+Hi all - just a quick note to share that the Adobe Analytics Challenge has been delayed for 2025. You're not missing out anything just yet. We'll have updated dates on the website shortly, but for now, there's no reason to be concerned. Sorry for the confusion!
+Views
+Like
+Replies
+Views
+Likes
+Replies
+
+Copy link to clipboard
+Copied
+I am a professor looking for assistance in how to register a team for the Adobe Analytics Challenge (https://adobeanalyticschallenge.com/). The registration links are not working. Could somebody please reach out to me at marthaud@ksu.edu with more information?
+Marne L Arthaud-Day
+Copy link to clipboard
+Copied
+Copy link to clipboard
+Copied
+in the future, to find the best place to post your message, use the list here, https://community.adobe.com/
+p.s. i don't think the adobe website, and forums in particular, are easy to navigate, so don't spend a lot of time searching that forum list. do your best and we'll move the post (like this one has already been moved) if it helps you get responses.
+<"moved from using the community">
+
+Colin Wang (’26 Applied Mathematics/USC Dornsife), Tommy Zhan Shu (’26 Biology/USC Dornsife and Data Science/USC Viterbi), and Claude Hana Yoo (’26 Computer Science/USC Viterbi), guided by mentor Mike Lee, Senior Lecturer in Applied Analytics and Enterprise Systems at the School of Advanced Computing, clinched second place in the Adobe Analytics Challenge on March 25, 2024, in Las Vegas. Competing against over 2,000 teams globally, their achievement highlights the practical application of their studies in a highly competitive setting.
+This competition, lauded for its intensity and scope, is a cornerstone event for students to engage with real-world data through Adobe’s analytics tools. “One of the largest academic collegiate competitions in the world,” as described by Sandor Jones, Senior Product Marketing Manager at Adobe, it challenges participants to tackle genuine business cases with advanced analytical solutions.
+The journey to the finals was rigorous. After surpassing thousands of teams to enter the semi-finals among the top 20, they excelled further to secure a spot in the final four. Competing against all graduate students, their presence in the finals underscored their exceptional talent and preparation. Nate Smith, Director of Product Marketing at Adobe, acknowledged their unique achievement, stating, “the team was the youngest ever to make the finals in the 18-year history of the competition.”
+Claude Hana Yoo reflected on the competition, emphasizing the real-world skills it honed. “My favorite part of the competition was how it gave us the chance to exercise so many real-world skills. Our data was very raw, which is realistic to most data analysis tasks, and we had to professionally present our findings with clean slide decks and data visualizations to senior executives.”
+Colin Wang shared his thoughts on the practical experience gained, “The Adobe Analytics Challenge was one of the most enjoyable and challenging competitions I’ve had the opportunity to be a part of. Working with real company data, which was terribly organized, was a practical way to apply the skills I learned in my classes.”
+Tommy Zhan Shu shared his perspective on diving into data analysis, “At the onset of looking at data, it’s always a pile of organized chaos and never something you can directly just understand. But as you delve deeper and start to compile information and sort out the data, stories become clearer and numbers more comprehensive. To me, it’s incredible to realize how the data points represent individual storylines that each person contributed, encapsulated through the figures present. That’s what makes these experiences interesting—it’s not just about understanding numbers but rather the people behind them.”
+Mentor Mike Lee spoke to the broader educational philosophy their success represented: “This shows the strength of our interdisciplinary approach to undergraduate education, which is also one of the underpinnings of the new School of Advanced Computing. This approach equips our students to tackle complex challenges, blending theory with practical application in a real-world setting.”
+Published on April 12th, 2024
+Last updated on May 16th, 2024
+
+Talk about anything to do with Adobe Analytics (formerly Omniture SiteCatalyst)
+need help with adobe analytics challenge
+hi guys, so I am a student, and have taken part in adobe analytics challenge. I really want to ace it, but haven't got a clue what is asked in the competition. any advice??
+
+A UT Dallas Naveen Jindal School of Management team placed second in the Nov. 3 national finals of the Adobe Analytics Challenge. Team Adobics members Ariel Cain, Portia Ballard and Gloria Nsereko Lule — all MS in Marketing students — earned $14,000 for their performance at the challenge, which was held in Salt Lake City.
+The first-place team, the University of Michigan, earned $35,000. Michigan won by less than one point, according to Jindal School marketing lecturer Josh Friedman. The other finalist teams were Brigham Young University, BYU Idaho, New York University and the University of Utah.
+In the finals, Team Adobics and fellow competitors each made a 15-minute presentation to, and fielded questions from, a panel of judges that included representatives from Adobe, its customer partners and other industry experts.
+Thirty-five percent of each team’s score evaluated the quality, depth, uniqueness and potential value of its analysis. Another 35 percent assessed the connection a team made between its analysis and the recommendations it made. Establishing key business objectives and success metrics counted for 15 percent of the score, as did team professionalism and communication skills.
+Like all competitors, Ballard, Cain and Nsereko Lule in the beginning had slightly more than two weeks to analyze a company’s digital data using Adobe analytics tools and then build an analysis of their findings and add recommendations. Twenty teams from JSOM initially competed in a field that included teams from Brigham Young, Duke, New York, Northwestern and Yale Universities and the Universities of California, Berkeley; California, Los Angeles; Michigan; Southern California; Texas at Austin; and more.
+For more than a decade, the Adobe Analytics Challenge has been a unique, analytics-focused business case competition in which university students gain access to real-world data from such firms as Comcast, Condé Nast, Lenovo and Starwood, and the opportunity to use Adobe’s analytics products as well. The partner firm this year is MGM Resorts.
+“The three women who are going to the finals have put in hours and hours of hard work over the last few weeks, and it’s clearly paying off,” said Friedman, a Jindal School lecturer whose Marketing Web Analytics and Insights (MKT 6352) course yielded three semifinalist teams. “This is my first year teaching here, and I’ve really been impressed by how teams leverage their marketing classes, their external experience and their online analytics class to come up with unique insights and powerful recommendations.”
+“I met Ariel and Gloria during our Digital Sales Strategy course last semester,” Ballard said. “This semester, we each enrolled in the marketing analytics course and began working on the Adobe Analytics Challenge as a team. My desire was to be on a winning team with dependable team players who would contribute their marketing expertise and enthusiasm to the competition.”
+“I’ve never been in a group where my other teammates care just as much as I do about the final result,” Cain said. “We push each other’s thinking, and we worked together the entire time; it was a true collaborative project. One day, we met for 15 hours straight, working on the project nonstop from 11 a.m. to 2 a.m. That was definitely a first in my college career.”
+“The University of Texas at Dallas has exposed me to so many great opportunities — with the Adobe Analytics Challenge being one of the greatest highlights,” Nsereko Lule added. “The UTD classes that have given me the most knowledge for competing in this event have been Marketing Web Analytics and Insights, Marketing Campaign Management Lab and Interactive and Digital Marketing.”
+“I am very proud of them. They have all been former or current students of mine, all pursuing the digital marketing track in our program. Their win highlights the quality of our digital courses,” said Alexander Edsel, director of the MS in Marketing program.
+“Making the top six out of more than 150 teams from across the nation is no easy task, and we did it!” Cain said. “We’ve already made history by being the first team from UTD to advance to the finals in this competition, and that in itself is a huge accomplishment.”
+
+Is anyone having the similar issue with submission of their presentations?
+Apparently both the calendar and message said the deadline is 11:59pm PST but it says 10:59pm PST on the portal. I tried submitting around 11:20pm PST but couldn't submit.
+Does anyone know how to solve this, or do you have their contact information?
+Thanks a lot
+Is the problem solved? We are facing the same problem lol
+Views
+Replies
+Total Likes
+Nope, trying to find their contact information but couldnt find anythinh
+Kind of going crazy at the moment ;(
+So sad (´;ω;`) Wish there will be a proper solution ;(
+Views
+Replies
+Total Likes
+Last message timing was 11.59 pm PST but it have been closed before the given timing.
+i have to submit the PPT but it is not showing the Submit Space and we tried using the Team Lead User Login.
+we tried using all other Browsers.
+Is the problem solved? We are facing the same problem lol
+Views
+Replies
+Total Likes
+Not yet solved.
+Wish they can have a good solution for this ;(
+Views
+Replies
+Total Likes
+Hi, the deadline to submit the challenge is 11:59 pst. we were trying to upload since around 1hr (from 11 pst ) there is no submission option. we tried different browsers too ! there is no e-mial ID given too !Please help !
+Views
+Replies
+Total Likes
+Unable to submit presentation, submission link disabled even before deadline was over. Kindly suggest what is to be done to submit our presentation
+Views
+Replies
+Total Likes
+Presentation Submission Space is not shown. I had a deadline till 11:59 pm PST but it closed before the given time. How can I upload the ppt?
+Views
+Replies
+Total Likes
+Hello,
+The time for submission was 11:59 PM PT. However, the link for submission hasn't be open till this time. I do not know when it closed, but in multiple places across the website, it shows clearly that the deadline is 11:59 PM PT.
+Please let me know how I can make the submission.
+Thank you,
+Aman Goswami
+Views
+Replies
+Total Likes
+Been reloading and using different browsers to submit the ppt for more than 40 minutes, but the submission pannel is missing.
+Views
+Replies
+Total Likes
+The deadline to submit the challenge is 10:59 Pacific Standard Time as stated on our dashboard, whereas 11:59 elsewhere, even despite this confusion, our team has been constantly trying to upload the presentation for the past 2 hours or so. There is no support for AAC, nor anybody to contact to get help.
+This is simply unfair treatment, and extremely unprofessional, please understand our issue and at least provide another route to submit our presentation.
+Topics help categorize Community content and increase your ability to discover relevant content.
+Views
+Replies
+Total Likes
+Hi! May I ask when you started to try to upload the PPT?
+Approximately 10 PM PST.
+Views
+Replies
+Total Likes
+I too had the same problem. The information was misleading. I opened my the submission page and kept trying for more than 1 hour. To be on safe side, I emailed our team's presentation to help@adobeanalyticschallenge.com.
+@adobe executives, a lot of folks are facing this issue. Kindly consider our submission. I think thr backend wasn't updated from your end.
+Thank you.
+Hi All,
+While I have no connection to the Challenge, and can't help with this issue, I have merged all the issues into one ticket.
+I believe that @sandor_jones is affiliated with the contest, so I am flagging him to see if he can help support all of you that are having issues.
+Good Luck!
+Please send your presentation to aac-registration@adobe.com if you had issues last night. Thank you
+Views
+Likes
+Replies
+
+Adobe Analytics Challenge
+Overview
+Rules & FAQ
+Past Winners
+Adobe
+
+06
+February
+Calendar for 2024: Key Dates
+20
+February
+Team Member Registration Deadline
+-
+11:59pm PT
+21
+February
+Training Videos Uploaded to Profile Page
+Please login to your team profile page.
+22
+February
+Receive Access to the Data
+23
+February
+Office Hours
+-
+9–9:30am PT
+-
+2–2:30pm PT
+Please login to your team profile page.
+27
+February
+Office Hours
+-
+9–9:30am PT
+-
+2–2:30pm PT
+Please login to your team profile page.
+28
+February
+Presentation Submission Deadline
+-
+11:59pm PT
+02
+March
+Semifinalists Announced (Virtual)
+05
+March
+Semifinal Judging Begins (Virtual)
+08
+March
+Finalists Announced
+25
+March
+
+I am a professor looking for assistance in how to register a team for the Adobe Analytics Challenge (https://adobeanalyticschallenge.com/). The registration links are not working. Could somebody please reach out to me at marthaud@ksu.edu with more information?
+Marne L Arthaud-Day
+Hi @MLADay
+which link is not working? The website itself works for me. Is it a particular link that does not work for you?
+Maybe best to reach out to Adobe support
+Thank you, Jennifer -
+Very helpful!
+Marne
+Views
+Replies
+Total Likes
+FYI anyone else reading this. Sandor is no longer managing the competition and recommended reaching out to Amber Thornton (wadswort@adobe.com) instead. Following that rabbit trail now.
+Thanks for letting us know! Amber is great though, you are in good hands with her.
+It seems there are issues with this almost every year.
+In the past, I know that @sandor_jones has helped in the past.
+You can also try sending your issue to aac-registration@adobe.com (I would assume this email is still active, it was used the last two challenges).
+Good Luck!
+Views
+Replies
+Total Likes
+@Amruthesh_AG, while reading the FAQ tends to be helpful, in this case that really makes no difference... the Registration Page URL that you highlighted is missing from the website (hence the problem):
+I need help registering my team before the deadline. Any way to help solve the page not found issue? Thanks!
+Views
+Replies
+Total Likes
+Views
+Replies
+Total Likes
+I have not had any luck making contact with Amber or via the Analytics Challenge address after multiple attempts. I'm beginning to think the Challenge is not being held this year?
+Hmm ok, looking at the website, all the dates seem to be for 2024? I am reaching out to a contact at Adobe to see if I can get any more info for you.
+Views
+Replies
+Total Likes
+Thank you! Much appreciated. I was able to reach Sandor, who referred me to Amber, but have not successfully connected with Amber.
+Marne
+Views
+Replies
+Total Likes
+I have a friend that is looking to do the competition too. She reached out and was told it will likely be early September this year.
+Views
+Replies
+Total Likes
+Thank you! I heard from Amber this morning and she confirmed it has been rescheduled for September 2025 and that more details will be forthcoming as the event gets closer.
+I appreciate the Cloud/Crowd support!
+Marne
+Views
+Replies
+Total Likes
+Hi all - just a quick note to share that the Adobe Analytics Challenge has been delayed for 2025. You're not missing out anything just yet. We'll have updated dates on the website shortly, but for now, there's no reason to be concerned. Sorry for the confusion!
+Views
+Like
+Replies
+Views
+Likes
+Replies
